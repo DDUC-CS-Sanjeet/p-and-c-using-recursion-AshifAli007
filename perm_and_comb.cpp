@@ -22,8 +22,8 @@ int combination(int n, int r)
 	if(r==0){	//base condition
 		return 1;
 	}else{
-		//return ((n)*combination(n-1,r-1))/r;
-		return (n/r)*combination(n-1,r-1);
+		return ((n)*combination(n-1,r-1))/r;
+		//return (n/r)*combination(n-1,r-1);
 	}
 }//combination ends here
 
